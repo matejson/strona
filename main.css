@@ -1,20 +1,7 @@
 body {
-    background-image: linear-gradient(#12ffb4, #ff74f7)
-}
-
-
-
-/*  animation: 1s slidefade 1s forwards;
-    margin-top: 100px;
-}
-@keyfarmes slidefade {
-    100%{
-        opacity: ;
-        margin: 0;
-    }
-}
-*/
-body {
+    background-image: linear-gradient(#eec8c3, #279084);
+    overflow-x: hidden;
+    background-attachment: fixed;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -28,19 +15,19 @@ html {
 
 
 .back-to-top {
-position: fixed;
-bottom: 2em;
-right: 5px;
-text-decoration: none;
-color: #000000;
-font-size: 12px;
-padding: 1em;
-display: none;
+    position: fixed;
+    bottom: 2em;
+    right: 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
 }
 
 .back-to-top:hover {
-opacity:0.96;
-text-decoration: none;
+    opacity: 0.96;
+    text-decoration: none;
 }
 
 
@@ -54,7 +41,7 @@ text-decoration: none;
 
     animation: 1s fadein 0.5s forwards;
     opacity: 0;
-   position:absolute !important;
+    position: absolute !important;
 }
 
 
@@ -62,10 +49,10 @@ text-decoration: none;
 
 
 
-.navbar a{
-color: white;
+.navbar a {
+    color: white;
     font-size: 5vh;
-    background-color: 
+    background-color:
 }
 
 
@@ -188,12 +175,12 @@ color: white;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(rgba(91, 222, 198, 0), rgba(91, 222, 198, 1))
+    background-image: linear-gradient(rgba(238, 200, 195, 0), rgba(238, 200, 195, 1))
 }
 
 .herotext {
     position: absolute;
-    top: 70%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
@@ -211,23 +198,49 @@ color: white;
 
 .background {
     background-color: blue;
-      overflow: hidden;  
+    overflow: hidden;
+    display:flex;
+    justify-content:center;
+    
 }
 
 .videos {
-    width:700px;
-    transition: 1s;
+
+    width:1000px;
+   transition: 0.5s;
+    
 
 }
 
 .videos:hover {
     filter: grayscale(100);
     opacity: 1;
-    transition: all, 2,5s, ease-in, 1.5s;
+    transition: all, ease-in, 1.5s;
     transform: scale(1.3);
     transform-origin: 50% 50%;
 
 }
+
+.description {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background .description {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.background:hover .description {
+    opacity: 1;
+    transition: opacity 1.5s ease-out;
+}
+
+
 
 /* powyżej gify */
 
@@ -245,13 +258,23 @@ color: white;
 
     height: 20vh;
     width: 100vw;
-    background-image: linear-gradient(rgba(91, 222, 198, 1), rgba(109, 112, 85, 0))
+
 }
 
-.triangles{
+.triangles {
     height: 80%;
-        float: right;
+    float: right;
 }
+
+
+.wraper {
+    position: absolute;
+    height: 400%;
+    max-width: 100%;
+    background-color: #eec8c3;
+}
+
+
 /* powyżej wielkosc napisow */
 /* summary */
 
@@ -295,11 +318,11 @@ color: white;
 
 /* ikony */
 
-.share{
+.share {
     text-align: center;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: center;
     align-items: center;
