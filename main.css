@@ -31,7 +31,7 @@ html {
 }
 
 
-/* powyżej kolor i czcionka*/
+/* navbar*/
 
 
 
@@ -42,31 +42,37 @@ html {
     animation: 1s fadein 0.5s forwards;
     opacity: 0;
     position: absolute !important;
+    background-color: #02282b;
+    padding: 0px 0px 10px 0px !important;
+}
+
+.nav-link {
+   color:#00ffcc !important;
+}
+
+.icon-bar{
+    background-color: aqua !important
 }
 
 
-/* kolor czcionki navbar*/
-
-
-
 .navbar a {
-    color: white;
-    font-size: 5vh;
-    background-color:
+  
+    font-size: 30px;
+
 }
 
 
 .icon-bar {
-    width: 22px;
+   
+    width: 25px;
     height: 2px;
     background-color: #B6B6B6;
     display: block;
     transition: all 0.2s;
     margin-top: 4px;
     background-color: white;
+    
 }
-
-
 
 @keyframes fadein {
     100% {
@@ -180,11 +186,12 @@ html {
 
 .herotext {
     position: absolute;
-    top: 100%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
     font-size: calc(20px + 3vw);
+    color: #edc4bf;
 }
 
 
@@ -252,13 +259,6 @@ html {
     margin-bottom: 10vh;
     color: antiquewhite;
     font-size: calc(20px + 1vw);
-}
-
-#overlay2 {
-
-    height: 20vh;
-    width: 100vw;
-
 }
 
 .triangles {
