@@ -42,7 +42,7 @@ html {
     animation: 1s fadein 0.5s forwards;
     opacity: 0;
     position: absolute !important;
-    background-color: #02282b;
+    background-color: #002e34;
     padding: 0px 0px 10px 0px !important;
 }
 
@@ -271,7 +271,7 @@ html {
     position: absolute;
     height: 400%;
     max-width: 100%;
-    background-color: #eec8c3;
+    background-color: #edcac6;
 }
 
 
@@ -303,7 +303,7 @@ html {
 
 .sciana {
     width: 100%;
-    height: 50vh;
+    height: 90vh;
     object-fit: cover;
 }
 
@@ -313,6 +313,7 @@ html {
     left: 50%;
     font-size: 80px;
     margin: 0 auto;
+    background-color: transparent !important;
 }
 
 
