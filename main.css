@@ -204,7 +204,7 @@ html {
 }
 
 .background {
-    background-color: blue;
+   
     overflow: hidden;
     display:flex;
     justify-content:center;
@@ -232,6 +232,8 @@ html {
     position: absolute;
     z-index: 2;
     background-color: transparent;
+    color:antiquewhite;
+    font-size: calc(25px + 1vw);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -278,13 +280,22 @@ html {
 /* powyżej wielkosc napisow */
 /* summary */
 
-
+#summary{
+    padding-top: 50px;
+}
 .sum {
+    
     color: antiquewhite;
-    font-size: calc(20px + 1vw)
+    font-size: calc(20px + 1vw);
+    
+}
+
+#ending {
+    padding-top: 50px; 
 }
 
 .p1 {
+    padding-bottom: 20px;
     font-size: calc(20px + 1vw);
 }
 
@@ -296,6 +307,7 @@ html {
 /* zdjecie */
 
 .books {
+    padding-top: 70px;
     position: relative;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -311,15 +323,19 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 80px;
+    transform: translate(-50%, -50%);
+    font-size: 40px !important;
     margin: 0 auto;
     background-color: transparent !important;
+    min-width: 100px;
+   
 }
 
 
 /* ikony */
 
 .share {
+    padding-top: 50px;
     text-align: center;
 }
 
