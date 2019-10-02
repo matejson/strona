@@ -19,7 +19,6 @@ html {
     bottom: 2em;
     right: 5px;
     text-decoration: none;
-    color: #000000;
     font-size: 12px;
     padding: 1em;
     display: none;
@@ -51,7 +50,7 @@ html {
 }
 
 .icon-bar{
-    background-color: aqua !important
+    background-color: #00ffcc !important;
 }
 
 
