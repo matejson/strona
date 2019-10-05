@@ -318,6 +318,13 @@ html {
 
 #ending {
     padding-top: 50px;
+    color: #1b5c52;
+}
+
+h1 {
+    font-weight: bolder !important;
+    padding-bottom: 10px !important;
+    font-size: calc(35px + 1vw) !important;
 }
 
 .p1 {
@@ -467,4 +474,11 @@ footer{
   color: #007bb5;
   background: #fefefe;
   border-color: #007bb5;
+}
+
+
+.bigger {
+    padding: px;
+    color: #00ffcc;
+    font-size: calc(20px + 1vw)
 }
