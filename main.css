@@ -46,23 +46,23 @@ html {
 }
 
 .nav-link {
-   color:#00ffcc !important;
+    color: #00ffcc !important;
 }
 
-.icon-bar{
+.icon-bar {
     background-color: #00ffcc !important;
 }
 
 
 .navbar a {
-  
+
     font-size: 30px;
 
 }
 
 
 .icon-bar {
-   
+
     width: 25px;
     height: 2px;
     background-color: #B6B6B6;
@@ -70,7 +70,7 @@ html {
     transition: all 0.2s;
     margin-top: 4px;
     background-color: white;
-    
+
 }
 
 @keyframes fadein {
@@ -203,18 +203,18 @@ html {
 }
 
 .background {
-   
+
     overflow: hidden;
-    display:flex;
-    justify-content:center;
-    
+    display: flex;
+    justify-content: center;
+
 }
 
 .videos {
 
-    width:1000px;
-   transition: 0.5s;
-    
+    width: 1000px;
+    transition: 0.5s;
+
 
 }
 
@@ -227,21 +227,41 @@ html {
 
 }
 
+
+.background:hover .description {
+
+    pointer-events: none;
+}
+
+
 .description {
+    width: 90%;
     position: absolute;
-    z-index: 2;
+    z-index: 10 !important;
     background-color: transparent;
     color: lightcoral;
-    font-size: calc(25px + 1vw);
+
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
+.description p {
+    font-size: calc(25px + 1vw);
+}
+
+
+.description h1 {
+    font-size: calc(35px + 2vw);
+}
+
+
 .background .description {
     opacity: 0;
     transition: 0.5s;
 }
+
+
 
 .background:hover .description {
     opacity: 1;
@@ -279,18 +299,19 @@ html {
 /* powyżej wielkosc napisow */
 /* summary */
 
-#summary{
+#summary {
     padding-top: 50px;
 }
+
 .sum {
-    
+
     color: antiquewhite;
     font-size: calc(20px + 1vw);
-    
+
 }
 
 #ending {
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 .p1 {
@@ -314,7 +335,8 @@ html {
 
 .sciana {
     width: 100%;
-    height: 90vh;
+    max-height: 800px;
+  height: 100vw;
     object-fit: cover;
 }
 
@@ -333,10 +355,115 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px !important;
-    margin: 0 auto;
-    background-color: transparent !important;
-    min-width: 100px;
-   
+box-sizing: border-box;
+    min-width: 100px !important;
+    margin: 0.2em;
+    padding: 0 15px 0 46px;
+    border: none;
+    text-align: left;
+    min-height: 50px;
+    width:auto;
+    font-size: 25px !important;
+  border-radius: 0.2em;
+    color: white !important;
+    background-color: #4C69BA ;
+    background-image: linear-gradient(#4C69BA, #3B55A0) ;
+    font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif ;
+    text-shadow: 0 -1px 0 #354C8C ;
+
 }
 
+}
+
+.btn:focus {
+    outline: none;
+    
+}
+
+.btn:active {
+    box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn:hover,
+.btn:focus {
+    background-color: #5B7BD5;
+    background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+
+/* footer */
+
+
+footer{
+    padding: 0 50px 0 50px;
+    
+}
+
+.social-button{
+    width:50px !importnant;
+    height:auto;
+    
+}
+.rounded-social-buttons {
+  text-align: center;
+    padding: 20px;
+
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.github {
+  background: #333;
+}
+
+.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.mail {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.mail:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}

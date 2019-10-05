@@ -29,3 +29,4 @@ videos.forEach(video =>{
         this.pause()
     })
                })
+
