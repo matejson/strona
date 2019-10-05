@@ -231,7 +231,7 @@ html {
     position: absolute;
     z-index: 2;
     background-color: transparent;
-    color:antiquewhite;
+    color: lightcoral;
     font-size: calc(25px + 1vw);
     left: 50%;
     top: 50%;
@@ -318,6 +318,16 @@ html {
     object-fit: cover;
 }
 
+
+
+
+
+/* buttton */
+
+
+
+
+
 .btn {
     position: absolute;
     top: 50%;
@@ -330,16 +340,3 @@ html {
    
 }
 
-
-/* ikony */
-
-.share {
-    padding-top: 50px;
-    text-align: center;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
