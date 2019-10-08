@@ -187,12 +187,12 @@ html {
 
 .herotext {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
     font-size: calc(20px + 3vw);
-    color: #edc4bf;
+    color: #eec8c3;
 }
 
 .name{
@@ -218,7 +218,7 @@ html {
 
 .videos {
 
-    width: 1000px;
+    width: 100%;
     transition: 0.5s;
 
 
