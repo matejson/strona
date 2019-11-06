@@ -1,4 +1,4 @@
-# mmy page
+# my page
 ---
 
 ## Technologies used in this project:
