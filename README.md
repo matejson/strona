@@ -10,4 +10,4 @@
 
 # Preview
 
-<a href="https://media.giphy.com/media/S6YOLuamUs6LwnU92z/giphy.gif"><img src="https://giphy.com/gifs/S6YOLuamUs6LwnU92z/html5" width="650"></a>
+<a href="https://imgur.com/dgFLQMC"><img src="https://imgur.com/dgFLQMC" width="650"></a>
